@@ -1,0 +1,80 @@
+/* inputs */
+input.error {
+    border:2px solid orange;   
+}
+
+input.success {
+    border:2px solid green;  
+}
+
+input {
+    outline:none;
+    height:30px;
+}
+
+input + p.addFormParagraph {
+    font-size: 12px;
+    font-family: arial;
+    opacity: 0;    
+    height:15px;
+}
+
+input.empty + p.addFormParagraph {
+    opacity:1;
+    height:15px;
+    margin-bottom:20px;   
+}
+
+
+input.error + p.addFormParagraph {
+    opacity:1;
+    height:15px;
+    margin-bottom:20px;
+   
+}
+
+input.success + p.addFormParagraph {
+    opacity:0;
+    height:15px;
+    margin-bottom:20px;
+    
+}
+
+input#CentimetersH.success + p.specialFormParagraph,
+input#CentimetersW.success + p.specialFormParagraph {
+    opacity:0;
+    height:15px;
+    margin-bottom:20px;
+}
+
+
+input.specialInput + p {
+    opacity:1;
+    height:15px;
+    margin-bottom:20px;    
+    font-size: 12px;
+    margin-left:23px;
+    font-family:arial;
+}
+
+
+select + p {  
+    font-size: 12px;    
+    font-family: arial;   
+}
+
+select.empty + p {
+    opacity:1;
+    height:15px;
+    margin-bottom:20px;    
+    font-size: 12px;   
+}
+select.success {
+    border:2px solid green;
+}
+select.success + p {
+    opacity:0;
+    height:15px;
+    margin-bottom:20px;
+}
+

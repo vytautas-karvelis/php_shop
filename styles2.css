@@ -1,0 +1,229 @@
+* { 
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    outline:none;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+h2 {
+    color:#666666;
+}
+header {
+    width:1100px;
+    height:90px;
+    margin:auto;
+}
+
+.box {
+    width:20%;
+    float:left;   
+    text-align:center;
+    background-color: #e6e6e6;
+    height:200px;
+    margin:2.5%;    
+    padding:60px;
+    position: relative;
+}
+
+.box:nth-child(n+5) {
+    margin-top: 0;     
+}
+
+input[type="checkbox"] {
+    background-color: lightsteelblue;
+    width: 12px;
+    height: 12px;
+    position: absolute;    
+}
+
+
+button {
+    color:white;
+	background-color:#b3b3b3;
+	padding: 8px 16px;
+    border-radius:6px;
+    font-size: 17px;
+    height:35px;
+    line-height: 15px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
+    border:none;
+}
+
+input[type='checkbox'] {
+    position: absolute;
+    top:15px;
+    left:15px;
+    width:12px;
+    height:12px;
+}
+
+
+hr {
+    border:1px solid grey;
+    background:grey;
+    width:1045px;
+    margin:auto;
+   }
+
+/* navbar */
+
+#navbar {    
+    overflow:auto;
+}
+
+#navbar h2 {
+    float: left;
+    padding-top:40px;
+}
+
+#navbar ul {
+    list-style:none;
+    float:right;
+}
+
+#navbar ul li {
+    float:left;
+}
+
+#navbar ul li a {
+    display:inline-block;
+    padding:20px;
+    text-align: center;
+}
+
+.clear {
+    clear:both;
+}
+
+.container1 {
+    max-width: 1045px;
+    margin:auto;
+    margin-top: 50px;       
+    height:90px;
+}
+.container2 {
+    margin:auto;  
+    max-width: 1100px;
+    min-height:500px;
+}
+
+.container3 {
+    margin:auto;
+    max-width: 1100px;    
+    text-align: center;
+    padding: 25px 0px;
+    color:#4d4d4d;
+}
+
+/* Add form */
+
+.addForm label,
+.addForm input,
+.addForm select {
+    display:inline-block;
+    font-size: 16px;       
+}
+
+.addForm input[id="Price"]
+{
+    margin-left:10px;
+}
+
+.addForm input[id="Name"]
+{
+    margin-left:13px;
+}
+
+.addForm input[id="SKU"]
+{
+    margin-left:25px;
+}
+
+.addForm select[id="Type"]
+{
+    margin-left:24px;
+}
+
+.addFormDiv {
+    margin-left: 23px;
+    margin-top:20px;
+}
+
+
+#DVDDiv label,
+#bookDiv label,
+#furnitureDiv label
+ {
+    margin-left: 23px;
+    font-size: 16px;   
+}
+
+
+#DVDDiv input,
+#bookDiv input,
+#furnitureDiv input {
+    display: inline-block;   
+}
+
+#DVDDiv input {
+    margin-left: 16px;
+    width:157px;
+}
+
+#bookDiv input {
+    margin-left: 16px;
+    width:138px;
+}
+
+#furnitureDiv #CentimetersH {
+    margin-left: 16px;
+    width:136px;
+}
+
+#furnitureDiv #CentimetersW {
+    margin-left: 22px;
+    width:136px;   
+}
+
+#furnitureDiv #CentimetersL {
+    margin-left: 16px;
+    width:136px;
+}
+
+.specialFormDiv {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border:2px solid gray;
+}
+
+.addFormDiv.success input {
+    border-color:green;
+}
+
+.addFormDiv.error input {
+    border-color: red;
+}
+
+#productForm{
+    margin-left:40px;
+}
+
+#productForm {
+    margin-top: 60px !important;
+}
+
+div.box > p {
+    font-size:12px;
+}
