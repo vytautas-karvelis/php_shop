@@ -49,7 +49,7 @@
     <hr>
     <footer>
         <div class="container3">
-            <h4>Scandiweb Test assignment</h4>
+            <h4></h4>
         </div>
     </footer>    
     <script src="script1.js"></script>
